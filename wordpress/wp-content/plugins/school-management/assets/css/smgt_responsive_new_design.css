@@ -1,0 +1,1603 @@
+/* minimum width 920px css  */
+
+@media (min-width: 920px)
+{
+    #wpcontent {
+        padding-left: 0px !important;
+    }
+    #sidebar li{
+        position: relative;
+    }
+    #sidebar .submenu, #sidebar .dropdown-menu{
+    position: relative;
+    width: 100%;
+    top: -10px;
+    }
+    .assign_bed_date {
+        width: 65% !important;
+        background-color: white !important;
+        color: #333333 !important;
+        box-shadow: none !important;
+        font-size: 15px !important;
+        font-weight: 400;
+    }
+    #sidebar li:hover > .submenu {
+        display: block;
+    }
+    #sidebar li .submenu
+    {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        min-width: 240px;
+        padding: 0;
+    }
+    #sidebar li.report:hover .submenu {
+        top: -285px;
+    }
+    .schoo-management-content-frontend #sidebar li .submenu
+    {
+        top: -10px;
+    }
+    #sidebarCollapse{
+        display: none;
+    }
+    .outer {
+        position: absolute;
+        width: 300px;
+        height: auto;
+        /* margin-left: 20px; */
+    }
+    .profile_image_class .class_tag {
+        /* padding: 15px; */
+        width: 54px !important;
+        border-radius: 16px;
+        height: 54px;
+    }
+    .profile_image_class .class_width{
+        width: 60% !important;
+        margin-left: 10px !important;
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .profile_image_class .holiday_width{
+        width: 80% !important;
+        margin-left: 10px !important;
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .padding_top_card_content{
+        padding-top: 4px;
+    }
+    .profile_image_class .date_background{
+        background-color: #5840bb26;
+        color: #5840bb;
+        font-size: 16px !important;
+        box-shadow: none;
+        height: 30px;
+        width: 24% !important;
+        text-align: center;
+        font-family: poppins;
+        float: right;
+    }
+    #main-wrapper .row .event{
+        height: 424px;
+    }
+    #main-wrapper .row .fess_report{
+        height: 350px;
+    }
+    .wp-admin .input_height_30px_dor_dashboard
+    {
+        height: 30px !important;
+    }
+    #main-wrapper .row .massage{
+        height: 424px;
+    }
+    .class_width .label_for_date {
+        padding-top: 3px;
+        font-size: 16px !important;
+        /* line-height: 1px; */
+        font-weight: 600;
+        font-family: poppins !important;
+    }
+    .class_image {
+        height: 24px;
+        width: 24px;
+        margin-top: 10px !important;
+    }
+    .notice_div {
+        border: 1px #E1E3E5 solid;
+        margin-bottom: 18px;
+    }
+    .notice_div .notice_div_contant {
+        padding-left: 10px;
+        padding-top: 6px;
+    }
+    .notice_div .notice_description_div {
+        padding-left: 0;
+    }
+    .notice_heading {
+        font-size: 16px;
+        font-weight: 400;
+        color: #818386;
+    }
+
+}
+/* minimum width 920px css  */
+
+/* maximum width 920px css  */
+
+@media(max-width: 920px)
+{
+    #sidebarCollapse {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .has-submenu .active {
+        display: block !important;
+    }
+    #sidebarCollapse {
+        display: block;
+    }
+    #sidebarCollapse.active span:first-of-type {
+        transform: rotate(45deg) translate(9px, 9px);
+    }
+    #sidebarCollapse.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+    #sidebarCollapse.active span:last-of-type {
+        transform: rotate(-45deg) translate(1px, -1px);
+    }
+    #sidebarCollapse span:first-of-type, #sidebarCollapse span:nth-of-type(2), #sidebarCollapse span:last-of-type {
+        transform: none;
+        opacity: 1;
+        margin: 5px auto;
+    }
+    #sidebarCollapse {
+        width: 40px;
+        height: 40px;
+        border: none;
+        /* background-color: none; */
+        background: none;
+        /* display: none; */
+        padding-left: 0 !important;
+    }
+    #sidebar.active {
+        transform: none;
+        overflow: scroll;
+        height: 450px;
+        display: block;
+        width: 100%;
+        position: relative;
+        max-height: 580px;
+        overflow-x: hidden;
+    }
+    #sidebar {
+        width: 240px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1001;
+        padding-top: 18px;
+        transition: all 0.4s ease-in-out;
+        display: none;
+    }
+    .smgt-navigation{
+        margin-top: 0px;
+    }
+    .admin_dashboard_menu_rs{
+        margin-top: 7% !important;
+    }
+    .dropdown-menu:after{
+        display: none !important;
+    }
+    .dropdown-menu:before{
+        display: none !important;
+    }
+}
+
+/* maximum width 920px css  */
+
+@media(min-width: 600px){
+    .smgt-right-heder .row {
+        height: 80px;
+    }
+}
+/* maximum width 767px css  */
+
+@media (max-width: 767px)
+{
+	@supports (-webkit-touch-callout: none) {
+        .icon.img-top.dashboard_side_responsive {
+            margin-left: 10px;
+        }
+    }
+	label.res_doc_lasbel
+	{
+		font-size: 15px !important;
+	}
+    .notification_hovor:hover .notification_hovor_dropdown {
+        top: -3px !important;
+    }
+     .smt_view_result .width_50{
+        width: 40%;
+        display:inline;
+        margin: 0px !important;
+     }
+     #add_more_sibling
+     {
+        margin-bottom: 15px!important;
+     }
+     .margin_bottom_15px_res
+     {
+	margin-bottom:15px !important;
+     }
+    .responsive_label_position
+	{
+		position: relative !important;
+	}
+	.responsive_label_position .custom-top-label
+	{
+		top: 0px !important;
+	}
+    #sidebar .dropdown-menu li a{
+        line-height: 25px !important;
+    }
+    .setting_dropdown_responsive
+    {
+        float: none;
+        display: inline-block;
+    }
+    .panel .panel-heading .panel-title {
+        line-height: 25px !important;
+    }
+    #sidebar li .submenu
+    {
+        width: 100%;
+    }
+    .mother_info{
+        margin-bottom:15px;
+    }
+    input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week]
+    {
+        min-height: 38px !important;
+    }
+    .adminssion_gender_input_margin{
+        margin: 15px 0 15px 0;
+    }
+    .radio_button_bottom_margin_rs{
+        margin-bottom: 15px;
+    }
+    .smgt-right-heder .search{
+        position: relative;
+        /* margin-top: 30px; */
+        padding-left: 20px;
+    }
+    .float_left_width_100_res {
+		float: left;
+		width: 100%;
+	}
+    .wizard_main {
+    	width: 100%;
+    	overflow: auto;
+    }
+	li.wizard_responsive {
+		width: unset;
+	}
+    .steps ul {
+    	display: -webkit-box !important;
+    }
+    #sidebar ul li:hover ul {
+        width: 100%;
+        position: relative;
+        margin-top: -3px;
+      }
+    .list_padding_5px{
+        margin-top: 40% !important;
+    }
+    .main_page #main_sidebar-bgcolor {
+        z-index: 9999999;
+        position: fixed;
+        background-color: #fff;
+        margin-top: 2.1%;
+    }
+    .schoo-management-content-frontend .main_page #main_sidebar-bgcolor
+    {
+        margin-top: 10.5%;
+    }
+
+    .auto-fold #wpcontent{
+        padding-left: 0px !important;
+    }
+    .row .four_card_div{
+        padding-left: calc(var(--bs-gutter-x)/ 2) !important;
+    }
+    #sidebar {
+        width: 240px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 10001;
+        padding-top: 0px;
+        transition: all 0.4s ease-in-out;
+    }
+    .admin_dashboard{
+        margin-left: 40px !important;
+    }
+    .smgt-calender-margin-top{
+        margin-top: 0 !important;
+    }
+    .fc-scroller{
+        max-height: 340px;
+        overflow: auto !important;
+        overflow-x: hidden !important;
+    }
+    #calendar .fc-view-harness {
+        height: 340px !important;
+    }
+    .menu_row .responsive_div_dasboard{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .chart_div_1{
+        width: 40% !important;
+    }
+    .chart_div_3{
+        width: 20% !important;
+    }
+    .smgt-card-title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #818386;
+        margin-top: 10px;
+    }
+    .no_data_img1 {
+		height: 230px;
+		margin-top: 0;
+	}
+    .smgt-right-heder .row .name_and_icon_dashboard {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .admin_dashboard_main_div .align_items_unset_res{
+        align-items: unset !important;
+    }
+    .smgt-right-heder .row h3{
+        margin-top: 0px !important;
+    }
+    .smgt-setting-notification{
+        margin-top: 0px !important;
+        /* float: left !important; */
+    }
+    #main-wrapper .dashboard_content_rs{
+        padding: 13px;
+        padding-bottom: 0 !important;
+    }
+    .setup_wizard_dashboard {
+    	margin-top: 172px;
+        margin-bottom: 7%;
+    }
+    .user_dashdoard_responsive {
+    	margin-top: 53%;
+    }
+    .smgt-card{
+        height: 200px!important;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 10%);
+        margin-bottom: 30px;
+        margin-right: 14px;
+    }
+    .smgt-card-member-bg {
+        width: 60px;
+        height: 55px;
+        margin-top: 40px;
+    }
+    .smgt-card-member-bg .center {
+        padding-top: 13px;
+    }
+    .smgt-line-chat {
+        height: 460px !important;
+    }
+    p {
+        font-size: 16px !important;
+    }
+    .outer {
+        position: absolute;
+        width: 300px;
+        height: auto;
+    }
+    .hmgt-line-chat .line-chart-checkcolor-RegularMember {
+        margin-right: 0% !important;
+    }
+    .hmgt-line-chat .line-chart-checkcolor-VolunteerMember {
+        margin-left: 0% !important;
+    }
+    .row .name_patient {
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+    .label_margin_top_15px .events1 .calendar-event {
+        height: 60px !important;
+    }
+    .label_margin_top_15px .calendar-event .date_font_size {
+        font-size: 35px !important;
+    }
+    .smgt_assign_bed_color0{
+        border-right: 4px #37CFD1 solid;
+        height: 44px;
+        font-size: 70px;
+      }
+
+    .smgt_assign_bed_color1{
+        border-right: 4px #FF9054 solid;
+        height: 44px;
+        font-size: 70px;
+      }
+      .smgt_assign_bed_color2{
+        border-right: 4px #44CB7F solid;
+        height: 44px;
+        font-size: 70px;
+      }
+      .smgt_assign_bed_color3{
+        border-right: 4px #FFB400 solid;
+        height: 44px;
+        font-size: 70px;
+      }
+      .smgt_assign_bed_color4{
+        border-right: 4px #4D4D4D solid;
+        height: 44px;
+        font-size: 70px;
+      }
+      .label_margin_top_15px .events1 .calendar-event {
+        height: 60px !important;
+    }
+    .class_image {
+        height: 24px;
+        width: 24px;
+        margin-top: 10px !important;
+    }
+    .admin_homepage_padding_top .profile_image_class .class_width {
+        width: 31% !important;
+        margin-left: 10px !important;
+        font-size: 14px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .admin_homepage_padding_top .profile_image_class .holiday_width {
+        width: 70% !important;
+        margin-left: 10px !important;
+        font-size: 14px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .admin_homepage_padding_top .profile_image_class .date_background {
+        width: 38% !important;
+    }
+
+    .schoo-management-content-frontend .profile_image_class .class_width {
+        width: 31% !important;
+        margin-left: 10px !important;
+        font-size: 14px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .schoo-management-content-frontend .profile_image_class .holiday_width {
+        width: 70% !important;
+        margin-left: 10px !important;
+        font-size: 14px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .schoo-management-content-frontend .profile_image_class .date_background {
+        width: 38% !important;
+    }
+    .profile_image_class .class_tag {
+        /* background: #44CB7F; */
+        height: 54px;
+        width: 54px !important;
+        border-radius: 16px;
+    }
+    .profile_image_class .date_background {
+        background-color: #5840bb26 ;
+        color: #5840bb;
+        font-size: 10px !important;
+        box-shadow: none;
+        height: 27px !important;
+        width: 70px !important;
+        text-align: center;
+        font-family: Roboto;
+        float: right !important;
+    }
+    .padding_top_card_content {
+        padding-top: 4px;
+    }
+    .calendar-event{
+    padding: 0px 0px 0px 0px !important;
+    }
+    .label_for_date{
+        font-size: 12px !important;
+        margin-top: 2px;
+    }
+    .admin_homepage_padding_top .notice_div .notice_description_div {
+        padding-left: 10px !important;
+    }
+    .schoo-management-content-frontend .notice_div .notice_description_div {
+        padding-left: 10px !important;
+    }
+    .notice_div {
+        border: 1px #E1E3E5 solid;
+    }
+    .notice_content_rs {
+        padding-top: 10px !important;
+    }
+    .assignbed_name {
+        color: #818386 !important;
+        width: 65% !important;
+        background-color: white !important;
+        box-shadow: none !important;
+        line-height: 2rem;
+    }
+    .date_font_size .date_assignbed_label{
+        width: 75% !important;
+    }
+    .calendar-event .date_font_size{
+        width: 35% !important;
+    }
+    .between_border123{
+        display: none;
+    }
+    .modal-header h4{
+        float: initial;
+    }
+    .overlay-content{
+        top: 30% !important;
+    }
+    .no_data_img3{
+        height: 200px;
+        margin: auto !important;
+        display: block;
+    }
+    .calendar-event-new3{
+        padding: initial !important;
+    }
+    .calendar-event-new1{
+        padding: initial !important;
+    }
+    .calendar-event-new2{
+        padding: initial !important;
+    }
+    .dashboard_btn{
+        margin-top: -35px;
+        padding: 0px 20px;
+    }
+    .smgt-group-list-record-col-img {
+        width: 35% !important;
+    }
+    .smgt-group-list-record-col-count{
+        width: 43% !important;
+    }
+    .calendar-event .smgt_exam_remainder_title_pr{
+        width: 70% !important;
+    }
+    .main_list_margin_15px
+    {
+        margin-left: 35px !important;
+        margin-top: 35% !important;
+    }
+    .main_list_margin_5px
+    {
+        margin-left: 30px !important;
+        margin-top: 37% !important;
+    }
+    .height_1000px{
+        height: auto !important;
+        padding: 10px !important;
+    }
+    .height_600px{
+        height: auto !important;
+        padding: 10px !important;
+      }
+    .tab_margin_top_40px{
+        margin-top: 40% !important;
+    }
+    .res_margin_bottom_20px{
+        margin-bottom: 20px;
+    }
+    .user_profile_header_left {
+        margin-top: 6% !important;
+    }
+    .user_profile_header_left {
+        margin-left: 18px !important;
+    }
+    .view_top1 {
+        margin-left: 0%;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .view_page_main #body_area{
+        margin-top: 30%;
+    }
+    .table-responsive{
+        overflow: unset !important;
+    }
+    .table-responsive table {
+        position: relative !important;
+        overflow: auto !important;
+        
+        scrollbar-width: thin;
+        scrollbar-color: rgba(155, 155, 155, 0.5) rgba(255, 255, 255, 0.5);
+        white-space: nowrap;
+        display: block !important;
+    }
+    #main-wrapper .nav>li>a {
+        width: max-content;
+    }
+    .flex-nowrap {
+        flex-wrap: nowrap !important;
+        overflow: auto;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(155, 155, 155, 0.5) rgba(255, 255, 255, 0.5);
+    }
+    .view_page_main .dataTables_wrapper .row {
+        display: block;
+    }
+    .dataTables_length {
+        width: auto !important;
+    }
+    .margin_top_20px {
+        margin-top: 0px !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card-icon .img-top
+    {
+        top: auto;
+    }
+    .fees_type_add_height{
+        height: 420px;
+    }
+    .fees_type_model_height{
+        height: 400px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .image_width_98px{
+        width: 96%;
+    }
+    .school_name_for_invoice_view{
+        position: relative;
+        word-break: break-word;
+        width: 70%;
+    }
+    .margin_top_15px_rs{
+        margin-top: 15px !important;
+    }
+    .margin_top_25px_rs{
+        margin-top: 25px !important;
+    }
+    .inovice_width_100px_rs{
+        width: 100%;
+    }
+    .view_invoice_lable .invoice_total_label{
+        font-size: 16px !important;
+    }
+    .rs_popup_width_20px{
+        width: 20% !important;
+    }
+    .overlay-content{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .responsive_40
+    {
+        margin-top: 40%;
+    }
+    .responsinve_5px
+    {
+        margin-left: 5px !important;
+    }
+    .category_list{
+        height: auto;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .invoice_total_value{
+        font-size: 20px !important;
+    }
+    .view_page_main #body_area .panel_tabs>li>a {
+        margin: 10px 10px 0 0 !important;
+    }
+    .print-button button{
+        margin-right: 5px !important;
+    }
+    .profile_image_prescription .prescription_tag {
+        height: 54px;
+        width: 54px !important;
+        border-radius: 16px;
+    }
+    .dataTables_wrapper .dataTables_length {
+        float: left !important;
+    }
+    .dataTables_wrapper .dataTables_info {
+        padding-top: 1.5em;
+    }
+    .group_thumbs{
+        display: none;
+    }
+    .address_student_div{
+        margin-top: 3% !important;
+    }
+    .user_view_profile_image {
+        height: 54px;
+        border-radius: 20px;
+        border: 3px solid #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+        float: left;
+        width: 54px;
+        background-color: white;
+        margin-top: 10px;
+    }
+    .profile_user_name .view_top1{
+        margin-left: 20px;
+    }
+    .color_white_rs{
+        color: #fff !important;
+    }
+    .view_user_name_label{
+        font-size: 18px !important;
+        width: 65%;
+    }
+    .admission_view_page_main_wrapper{
+        margin-top: 45%;
+        margin-left: 7%;
+    }
+    .smgt_title_add_btn .smgt_add_btn{
+        margin-top: 0 !important;
+    }
+    .smgt-right-heder .smgt_title_add_btn{
+        width: 100%;
+        display: inline;
+    }
+    .smgt-right-heder .row h3{
+        float: left;
+    }
+    .smgt_title_add_btn .smgt_add_btn{
+        float: right;
+    }
+    .formError{
+        left: 130px !important;
+    }
+    .calendar-event p.Bold{
+        font-size: 14px !important;
+    }
+    .smgt-group-list-total-group{
+        font-size: 14px !important;
+    }
+    .dataTables_filter{
+        padding-top: 30px !important;
+        width: 100% !important;
+    }
+    .dropdown_icon_link{
+        float: initial !important;
+        padding-top: 0 !important;
+    }
+    .dropdown_menu_icon{
+        margin-top: -75px !important;
+    }
+    #calendar .fc-scrollgrid-sync-inner a{
+        font-size: 12px;
+    }
+    .view_details_body .row .col-md-6{
+        width: 50% !important;
+    }
+    .pull-left .select_all{
+        margin-right: 5px;
+        margin-left: 0 !important;
+    }
+    .view_user_teacher_label{
+        width: 100% !important;
+    }
+    .margin_top_10px_res{
+       margin-top: 10px !important;
+    }
+    .margin_top_13px_res
+    {
+        margin-top: 13px !important;
+    }
+    .margin_right_10px_res
+    {
+        margin-right: 10px;
+    }
+    .padding_bottom_15px_res{
+        padding-bottom: 15px;
+    }
+    .padding_top_15px_res{
+        padding-top: 15px;
+    }
+    .view_page_header_bg .user_profile_header_left .support_staff_address_row{
+        width: 100% !important;
+    }
+    .smgt_support_view_page #body_area {
+        margin-top: 27% !important;
+    }
+    .padding_top_25px_res{
+        padding-top: 25px !important;
+    }
+    .whitespace_initial{
+        white-space: initial !important;
+    }
+    #message p{
+        width: 90%;
+    }
+    .wp-core-ui .button, .wp-core-ui .button.button-large, .wp-core-ui .button.button-small, a.preview, input#publish, input#save-post{
+        margin-bottom: 0 !important;
+    }
+    .view_user_phone{
+        margin-top: 5px !important;
+    }
+    .width_80px_res{
+        width: 80% !important;
+    }
+    .width_20px_res{
+        width: 20% !important;
+    }
+    .margin_left_0px_res{
+        margin-left: 0 !important;
+    }
+    .main_div{
+        position: inherit !important;
+    }
+    .mozila_display_css{
+        display: block !important;
+    }
+    .width_75px_res{
+        width: 75% !important;
+    }
+    .width_25px_res{
+        width: 25% !important;
+    }
+    .invoice_address_css{
+        padding-top: 30px;
+    }
+    .invoice_model_heading{
+        width: 100% !important;
+    }
+    .display_inherit_res{
+        display: inherit !important;
+    }
+    .width_50_res{
+        width: 50% !important;
+    }
+    .padding_0_res{
+        padding: 0 !important;
+    }
+    .payment_invoice_popup_main_div{
+        padding-right: 0 !important;
+    }
+    .font_size_12px_res{
+        font-size: 12px !important;
+    }
+    .save_btn{
+        line-height: 15px !important;
+    }
+    .msg_delete_btn {
+        line-height: 30px!important;
+    }
+    .frontend_list_margin_30px_res{
+        margin-top: 40%;
+    }
+    .frontend_list_margin_40px_res{
+        margin-top: 40%;
+    }
+    .dataTables_wrapper .dataTables_filter {
+        margin-top: 0 !important;
+    }
+    .calendar-event-new .no_data_img{
+        margin-bottom: 12px !important;
+    }
+    .min_width_115{
+        min-width: 115px !important;
+    }
+    #message{
+        top: 10px !important;
+    }
+    table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child::before{
+        top: 30px;
+    }
+    table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child::before{
+        left: -8px !important;
+    }
+    .padding_bottom_10px{
+        padding-bottom : 10px !important;
+    }
+    #student_form .first_hed{
+        padding-top: 12px !important;
+    }
+    .print-button.pull-left {
+        margin-top: 0px !important;
+    }
+
+}
+/* maximum width 767px css End */
+
+@media (min-width: 920px) and (max-width: 1025px){
+    .smgt-card-title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #818386;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 1025px){
+    .smgt-card-title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #818386;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 776px) and (max-width: 920px){
+    .smgt-card-title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #818386;
+        margin-top: 10px;
+    }
+}
+
+/* minimum width 768px css  */
+
+@media (min-width: 768px)
+{
+    #sidebar .frontend_smgt_navigation{
+        margin-top: 80px;
+    }
+	.calander_heading_title_width{
+		margin-left: 20px !important;
+	}
+    .margin_top_10px_web{
+        margin-top: 10px !important;
+    }
+    .padding_left_30px{
+        padding-left: 30px !important;
+      }
+      .margin_left_10px
+      {
+          margin-left: 10px;
+      }
+    .error_msg_left_margin .formError{
+        left: 340px !important;
+    }
+    .virtual_error_msg_left_margin .formError{
+        left: 250px !important;
+    }
+
+    .panel {
+        padding-bottom: 40px;
+      }
+    .table_overflow_scroll .add_multiple_subject_mark_form .table-responsive{
+        overflow-x: auto !important;
+    }
+    .table-responsive{
+        overflow: inherit !important;
+    }
+    .view_result {
+        overflow: auto;
+    }
+    .mobile_error_massage_left_margin .formError{
+        left: 200px !important;
+    }
+    .overlay-content{
+        top: 20% !important;
+    }
+    .user_profile_header_left {
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+    .profile_image_prescription .prescription_tag {
+        width: 54px !important;
+        border-radius: 16px;
+        height: 54px;
+    }
+    .smgt-card {
+        width: 45% !important;
+        height: 186px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 10%);
+        margin-bottom: 20px;
+    }
+    .smgt-line-chat-bottom .responsive_div_dasboard .count_patient{
+        padding-left: 25px !important;
+    }
+    .smgt-line-chat-bottom .responsive_div_dasboard .name_patient{
+        padding-left: 10px !important;
+    }
+    .row .smgt-line-chat-bottom span{
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    .row .smgt-line-chat-bottom p{
+        margin-left: 30px;
+    }
+    .color_dot_div_left {
+        padding-left: 0 !important;
+    }
+    #smgt-line-chat-right-border {
+        padding-left: 0px !important;
+    }
+    .row .name_patient {
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+    .row .inpatient_div {
+        padding-right: 0px !important;
+    }
+    .smgt-card-member-bg .center {
+        padding-top: 20px;
+    }
+    .smgt-card-member-bg{
+        width: 70px;
+        height: 70px;
+    }
+    .hmgt_card_2 {
+        margin-left: 25px;
+    }
+    .calendar-event {
+        padding: 0 !important;
+    }
+    .smgt_assign_bed_color0{
+        border-right: 4px #37CFD1 solid;
+        height: 44px;
+        font-size: 50px;
+        margin-left: 5px;
+      }
+    .smgt_assign_bed_color1{
+        border-right: 4px #FF9054 solid;
+        height: 44px;
+        font-size: 50px;
+        margin-left: 5px;
+    }
+    .smgt_assign_bed_color2{
+        border-right: 4px #44CB7F solid;
+        height: 44px;
+        font-size: 50px;
+        margin-left: 5px;
+    }
+    .smgt_assign_bed_color3{
+        border-right: 4px #FFB400 solid;
+        height: 44px;
+        font-size: 50px;
+        margin-left: 5px;
+    }
+    .smgt_assign_bed_color4{
+        border-right: 4px #4D4D4D solid;
+        height: 44px;
+        font-size: 50px;
+        margin-left: 5px;
+    }
+    .assignbed_name {
+        color: #818386 !important;
+        width: 67% !important;
+        background-color: white !important;
+        /* color: black !important; */
+        box-shadow: none !important;
+        font-size: 15px !important;
+    }
+    .calendar-event {
+        padding: 0 !important;
+        }
+    .smgt-setting-notification {
+        margin-top: 20px;
+        float: right;
+        display: flex;
+    }
+    .panel .panel-heading .panel-title {
+        line-height: 22px !important;
+    }
+
+}
+
+/* minimum width 768px css End */
+
+@media (min-width: 800px) and (max-width: 900px){
+    .calendar-event .remainder_date_pr{
+        padding: 0 !important;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 600px)
+{
+    #main-wrapper .dashboard_content_rs{
+        margin-top: 40% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 830px)
+{
+    .hmgt_card_2{
+        margin-left: 18px !important;
+    }
+    .auto-fold #wpcontent, .auto-fold #wpfooter{
+        margin-left: 0px !important;
+    }
+    .admin_homepage_padding_top {
+        padding-top: 7% !important;
+    }
+    .schoo-management-content-frontend {
+        padding-top: 7% !important;
+    }
+    body{
+        font-size: 12px !important;
+    }
+    .smgt-card-title{
+        text-align: center;
+    }
+    .panel .panel-heading .panel-title{
+        font-size: 16px !important;
+    }
+    .row .smgt-line-chat .hmgt-line-chat{
+        padding-top: 0 !important;
+    }
+    .percent1{
+       font-size: 13px !important;
+    }
+    .percent{
+        font-size: 26px !important;
+     }
+    .outer{
+        position: relative;
+        width: auto;
+    }
+    .date_font_size .date_assignbed_label{
+        width: auto;
+    }
+    .admmision_div .events1 .calendar-event .date_font_size{
+        padding-top: 0;
+    }
+    .smgt-member-chart{
+        width: auto !important;
+    }
+    .calendar-event .date_font_size{
+        width: 35% !important;
+    }
+    .calendar-event{
+        display: block;
+    }
+    .notice_div{
+        border: 1px #E1E3E5 solid;
+    }
+    .profile_image_class .date_background {
+        background-color: #5840bb26;
+        color: #5840bb;
+        font-size: 16px !important;
+        box-shadow: none;
+        height: 30px;
+        width: 30% !important;
+        text-align: center;
+        font-family: Roboto;
+        float: right;
+    }
+    .notice_div .notice_div_contant {
+        padding-left: 10px;
+        padding-top: 6px;
+    }
+    .assignbed_name
+    {
+        font-size: 12px !important;
+        width: 65% !important;
+    }
+    .date_font_size .date_assignbed_label{
+        font-size: 16px !important;
+    }
+    .profile_image_class .profile_image_appointment {
+        border-radius: 16px;
+        height: 52px;
+        margin-right: 15px!important;
+        width: 52px !important;
+    }
+    .smgt-group-list-record-col-count{
+        width: 40% !important;
+    }
+    .smgt-group-list-record-col-img{
+        width: 35% !important;
+    }
+    .smgt-group-list-total-group{
+        font-size: 14px !important;
+    }
+    .calendar-event .smgt_exam_remainder_title_pr{
+        width: 76%;
+    }
+    .class_image{
+        height: 24px;
+        width: 24px;
+        margin-top: 8px !important;
+    }
+   .profile_image_class .holiday_width
+   {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   }
+   .holiday_list_description_res{
+       width: 70% !important;
+   }
+   .profile_image_class .class_tag{
+    border-radius: 16px;
+    height: 52px;
+    margin-right: 15px!important;
+    width: 52px !important;
+   }
+   .profile_image_class .card_content_width{
+       width: 45% !important;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       white-space: nowrap;
+   }
+   .label_for_date{
+       padding-top: 3px;
+   }
+   .profile_image_class .padding_top_5px_res{
+       padding-top: 5px;
+   }
+   .fc-header-toolbar .fc-toolbar-chunk{
+       text-align: center;
+   }
+   #calendar .fc-header-toolbar{
+       display: block !important;
+   }
+   .smgt-calender-margin-top{
+    overflow: scroll;
+    height: 510px;
+    overflow-x: hidden;
+   }
+   #main-wrapper .row .event{
+        height: 424px;
+   }
+
+   #main-wrapper .row .massage {
+        height: 424px;
+    }
+    .smgt-feesreport-list {
+        height: 282px;
+    }
+    .smgt-attendance-list {
+        height: 282px;
+    }
+    .smgt-calendar {
+        height: 590px;
+    }
+    .dataTables_info{
+        margin-left: 20px;
+    }
+    .view_page_main #body_area{
+        margin-top: 10%;
+    }
+    .view_user_phone{
+        margin-top: 5px !important;
+    }
+    .age_padding_left_right_0 {
+        padding: 0 !important;
+    }
+    #sidebar {
+        margin-top: 7%;
+    }
+    #sidebar .submenu {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 990px) and (max-width: 1050px)
+{
+    .date_font_size .date_assignbed_label{
+        width: 80% !important;
+    }
+    .calendar-event .date_font_size{
+        width: 30% !important;
+    }
+    .smgt-group-list-record .smgt-group-list-record-col-img{
+        width: 50% !important;
+    }
+    .smgt-group-list-record .smgt-group-list-record-col-count{
+        width: 35% !important;
+    }
+    .profile_image_class .class_width{
+        width: 49% !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .profile_image_class .date_background{
+        width: 30% !important;
+    }
+    .profile_image_class .holiday_width{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .smgt-member-chart{
+        width: auto !important;
+    }
+    .smgt-member-chart .outer {
+        position: relative !important;
+        width: auto !important;
+    }
+    .percent1{
+        font-size: 15px !important;
+    }
+    .view_page_main #body_area{
+        margin-top: 9%;
+    }
+    .admin_homepage_padding_top{
+        padding-top: 4% !important;
+    }
+    .schoo-management-content-frontend{
+        padding-top: 4% !important;
+    }
+    .edit_btn_padding_left_25px_res{
+        padding-left: 25px !important;
+    }
+}
+@media (max-width: 1024px)
+{
+    label{
+        font-size: 12px !important;
+    }
+    .padding_left_0_res{
+        padding-left: 0 !important;
+    }
+}
+@media (min-width: 300px) and (max-width: 530px)
+{
+        div div.alert.message_disabled_css.below-h2.notice.is-dismissible.alert-dismissible.responsive_alert_message
+	{
+		margin: -10px !important;
+		margin-bottom: 15px !important;
+	}
+	.remove_cirtificate
+    {
+        margin-bottom: 15px!important;
+    }
+
+	video.qrPreviewVideo {
+                display: inline-block !important;
+                max-width: 100% !important;
+	}
+        #rs_fd_account_address_width{
+                width: 100%!important;
+
+        }
+        .fd_account_module #res_mt_8_per{
+                margin-top: 8%;
+        }
+	#sidebar .general_setting_menu .admin_submenu_css {
+		top: 0px !important;
+	}
+	.table-responsive{
+		margin-bottom:20px;
+	}
+    .add_btn_possition_res
+    {
+        margin-top: 22%!important;
+    }
+	.exam_result_pdf_margin{
+		margin:0px !important;
+	}
+    .teacher_view_tab .rs_width{
+        width: 90%;
+    }
+    .student_view_tab .rs_width{
+        width: 90%;
+    }
+    .add_btn_possition_teacher_res
+	{
+        margin-top: 22%!important;
+    }
+    .rs_mb_15px{
+        margin-bottom: 15px;
+    }
+    .new_popup_padding .width_30{
+        width: 34%!important;
+    }
+    .new_popup_padding .width_70{
+        width: 67%!important;
+    }
+    .res_pay_his_mt_10px{
+        margin-top: 5%;
+    }
+}
+
+/*----- ADD RESPONSIVE CSS FILE (smgt_responsive_new_design_hitesh.css)- START ------ */
+
+@media (max-width: 540px)
+{
+    .multiple_select.select_all.attendance_select_all_option{
+        /* margin-left: 10px !important; */
+    }
+    .label_margin_top_15px .events1 .fees_payment_height{
+        height: 55px !important;
+    }
+    .user_profile_header_left .row {
+        width: 89%!important;
+    }
+    .viewpage_add_icon {
+        margin-top: 0px;
+    }
+    /* div#rs_fd_account_address_width
+    {
+     margin-top: -25px !important;
+     margin-left: 10px !important;
+    } */
+    .width_80{
+        width: 80%!important;
+    }
+    .width_75{
+        width: 75%!important;
+    }
+    .width_20{
+        width: 20%!important;
+    }
+    .res_width_20{
+        width: 20%!important;
+    }
+    .res_width_25{
+        width: 25%!important;
+    }
+    .width_30{
+        width: 30%!important;
+    }
+    .width_70{
+        width: 70%!important;
+    }
+    /* .modal-content .category_listbox_new {
+        height: 125px;
+    } */
+    /* view invoice responsive css start*/
+    .rs_main_billed_to{
+        width: 100%!important;
+    }
+    .rs_main_billed_to .rs_width_billed_to{
+        float: left;
+        width: 100%!important;
+    }
+    .rs_main_billed_to .rs_bill_to_width_40{
+        width: 40% !important;
+    }
+    /* view invoice responsive css End*/
+
+
+}
+@media (min-width: 320px) and (max-width: 414px)
+{
+
+    
+   .smgt-calendar .panel-heading .smgt-card-head .smgt-cards-indicators{
+        float: unset!important;
+        padding-left: 0!important;
+        padding-top: 13px;
+   }
+   .user_profile_header_left {
+        margin-left: 10px !important;
+    }
+    .user_profile_header_left #res_add_width{
+        width: 100%!important;
+    }
+    .view_page_main #body_area {
+        margin-top: 25% !important;
+    }
+   .responsive_account .view_user_name_label , .responsive_account .color_white_rs
+   {
+    color: #333333 !important;
+   }
+   section.responsive_account div.row.user_student_account
+   {
+    width: 100% !important;
+   }
+
+   section.responsive_account #rs_fd_account_address_width
+   {
+    margin-top: -25px !important;
+    margin-left: 10px !important;
+   }
+
+   .responsive_account .student_qr_margin
+   {
+    margin-top: 55% !important;
+   }
+   section.responsive_account .view_user_phone
+   {
+    color: #333333 !important;
+   }
+
+
+    .smgt_support_view_page #body_area {
+        margin-top: 20% !important;
+    }
+    
+    .remove_cirtificate
+    {
+        margin-bottom: 10px!important;
+    }
+    .overlay-content {
+        top: 20% !important;
+    }
+    .mailbox-content .pull-right {
+        float: unset!important;
+    }
+    .no_data_list_div{
+        margin-top: 5%;
+    }
+    #rs_fd_account_address_width{
+        width: 100%!important;
+
+    }
+    /* .category_list {
+        height: 0;
+    } */
+    .frontend_homepage_padding_top .frontend_list_margin_30px_res{
+        margin-top: 36%!important;
+    }
+    /* .alert_msg .notice-dismiss img {
+        margin-top: -20px!important;
+    } */
+    .alert_msg .notice-dismiss {
+        padding: 2px!important;
+    }
+   
+    #rs_invoice_view_mt_15{
+        margin-top: 15%!important;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 428px) and (-webkit-device-pixel-ratio: 2),
+       only screen and (min-device-width: 320px) and (max-device-width: 428px) and (-webkit-device-pixel-ratio: 3) {
+    .smgt-user-dropdown .dropdown-menu {
+        margin-top: -10px !important;
+    }
+}
+
+@media only screen and (min-device-width: 365px) and (max-device-width: 430px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .card-icon .img-top.responsive_iphone_icon {
+        margin-left: 0px !important;
+    }
+    .card-icon .img-top {
+        margin-left: 25px !important;
+    }
+    .table-responsive table {
+        display: unset !important;
+        position: unset !important;
+        overflow: unset !important;
+    }
+    .table-responsive {
+        overflow: auto !important;
+        padding-bottom: 25px !important;
+    }
+}
+
+  
+
+/*----- ADD RESPONSIVE CSS FILE (smgt_responsive_new_design_hitesh.css)- END ------ */

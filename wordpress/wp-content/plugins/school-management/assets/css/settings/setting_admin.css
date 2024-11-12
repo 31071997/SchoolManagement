@@ -1,0 +1,16 @@
+a.toplevel_page_smgt_school
+       {
+            font-size:14px !important;
+       }
+      a.toplevel_page_smgt_school:hover,  a.toplevel_page_smgt_school:focus,.toplevel_page_smgt_school.opensub a.wp-has-submenu
+      {
+            background: url("<?php echo SMS_PLUGIN_URL;?>/assets/images/school-management-system-2.png") no-repeat scroll 8px 9px rgba(0, 0, 0, 0) !important;
+      }
+    .toplevel_page_smgt_school:hover .wp-menu-image.dashicons-before img 
+    {
+            display: none;
+    }
+    .toplevel_page_smgt_school:hover .wp-menu-image.dashicons-before 
+    {
+        min-width: 23px !important;
+    }

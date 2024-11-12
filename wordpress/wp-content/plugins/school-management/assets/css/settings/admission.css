@@ -1,0 +1,93 @@
+.panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: right !important;
+    content:"\f067";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+ }
+.student_admission_form .form-group,.student_admission_form .form-group .form-control{float:left;width:100%}
+	.student_admission_form .form-group .require-field{color:red;}
+	.student_admission_form select.form-control,.student_admission_form input[type="file"] {
+  padding: 0.5278em;
+   margin-bottom: 5px;
+}
+.width_100{
+	    width: 100px;
+}
+.student_admission_form  .radio-inline {
+    float: left;
+    margin-bottom: 10px;
+    
+	 margin-right: 15px;
+}
+.student_admission_form  .radio-inline .tog {
+    margin-right: 5px;
+}
+.margin_bottom_15{
+	margin-bottom:15px !important;
+}
+.margin_top_10{
+	margin-top:10px !important;
+}
+.student_admission_form  .form-control[readonly]
+{
+	background-color: #eee;
+    opacity: 1;
+}
+.student_reg_error .error{color:red;}
+
+.ui-datepicker-calendar{ background-color: white!important; }
+.ui-datepicker-next{float: right!important;}
+.ui-corner-all
+{
+	color: black!important;
+}
+.ui-icon-circle-triangle-w
+{
+	background: bottom;
+}
+.ui-icon-circle-triangle-e
+{
+	background: bottom!important;
+}
+.father_doc
+{
+	padding: 4px!important;
+}
+#admission_form .form-group
+{
+	padding: 10px!important;
+}
+.admission_button
+{
+	margin-top: 20px!important;
+}
+#admission_form input[type="radio"] 
+{
+	margin: 0px 5px -5px 0px!important;
+}
+.entry-title
+{
+font-size: 2.25em!important;
+}
+.twentytwenty .accordion-header
+{
+    margin: 1rem auto 1rem!important;
+}
+.twentytwenty .standard_category 
+{
+    height: 81%!important;
+}
+.admission_successfully_message
+{
+	background-color: green!important;
+    color: white!important;
+}
